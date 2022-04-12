@@ -15,21 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
+    <None Include="message.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Codec.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Person.pb.cc">
+    <ClCompile Include="message.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Info.pb.cc">
+    <ClCompile Include="Request.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Person.pb.h">
+    <ClInclude Include="Codec.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Info.pb.h">
+    <ClInclude Include="Request.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="message.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

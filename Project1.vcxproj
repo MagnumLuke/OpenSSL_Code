@@ -21,6 +21,16 @@
   <ItemGroup>
     <None Include="message.proto" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Codec.cpp" />
+    <ClCompile Include="message.pb.cc" />
+    <ClCompile Include="Request.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Codec.h" />
+    <ClInclude Include="message.pb.h" />
+    <ClInclude Include="Request.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
