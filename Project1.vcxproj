@@ -25,6 +25,7 @@
     <ClCompile Include="Codec.cpp" />
     <ClCompile Include="message.pb.cc" />
     <ClCompile Include="Request.cpp" />
+    <ClCompile Include="Response.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Codec.h" />
