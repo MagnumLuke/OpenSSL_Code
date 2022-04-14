@@ -19,7 +19,7 @@ public:
 	RequestCodec(RequestInfo* info);
 	void initMessage(string encstr);
 	void initMessage(RequestInfo* info);
-	string encodMsg();
+	string encodeMsg();
 	void* decodeMsg();
 	~RequestCodec();
 

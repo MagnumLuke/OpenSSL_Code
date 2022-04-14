@@ -1,4 +1,4 @@
-﻿  Info.pb.cc
+﻿  Request.cpp
 C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\io\coded_stream.h(881,28): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”: struct“std::atomic<bool>”需要有 dll 接口由 class“google::protobuf::io::CodedOutputStream”的客户端使用
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\atomic(2757): message : 参见“std::atomic<bool>”的声明
 C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\stubs\logging.h(102,15): warning C4251: “google::protobuf::internal::LogMessage::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LogMessage”的客户端使用
@@ -51,7 +51,7 @@ C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\descrip
 C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\descriptor.h(1839): message : 参见“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”的声明
 C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\descriptor.h(1846,25): warning C4251: “google::protobuf::DescriptorPool::unused_import_track_files_”: class“std::set<std::string,std::less<std::string>,std::allocator<std::string>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用
 C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\descriptor.h(1846): message : 参见“std::set<std::string,std::less<std::string>,std::allocator<std::string>>”的声明
-  Person.pb.cc
+  RequestFactory.cpp
 C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\io\coded_stream.h(881,28): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”: struct“std::atomic<bool>”需要有 dll 接口由 class“google::protobuf::io::CodedOutputStream”的客户端使用
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\atomic(2757): message : 参见“std::atomic<bool>”的声明
 C:\Users\Administrator\Desktop\Project_Tool\protobuf\src\google\protobuf\stubs\logging.h(102,15): warning C4251: “google::protobuf::internal::LogMessage::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LogMessage”的客户端使用

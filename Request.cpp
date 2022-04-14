@@ -24,7 +24,7 @@ void RequestCodec::initMessage(RequestInfo* info) {
 	m_msg.set_data(info->data);
 }
 
-string RequestCodec::encodMsg() {
+string RequestCodec::encodeMsg() {
 	string output;
 	m_msg.SerializeToString(&output);
 	return output;

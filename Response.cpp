@@ -23,6 +23,7 @@ void RespondCodec::initMessage(RespondInfo* info) {
 	m_msg.set_serverid(info->serverID);
 	m_msg.set_data(info->data);
 }
+
 string RespondCodec::encodeMsg() {
 	string output;
 	m_msg.SerializeToString(&output);
